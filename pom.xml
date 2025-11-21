@@ -1,0 +1,27 @@
+<!-- 「根目錄」 這是整份文件的最外層包裝紙 -->
+<project xmlns="http://maven.apache.org/POM/.4.0.0"> 
+ 
+ <!-- 「格式版本」告訴 Maven：「請用第 4.0.0 版的規則來解讀這張報名表」 -->
+<modelVersion>4.0.0</modelVersion>
+
+<!-- 「團體/公司代號」公司網址倒過來寫（如 com.google） -->
+<groupId>training</groupId> 
+
+<!-- 「專案/產品名稱」 這是「什麼東西？」。這個專案的實際名字。 -->
+<artifactId>web</artifactId>
+
+<!-- 「版本號」 這是「第幾版？」 -->
+<version>1</version>
+
+<!-- 「參數設定區」 -->
+<properties>
+     <!-- 「檔案編碼」 -->
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+     <!-- 「原始碼版本」 我是用 Java 23 寫的程式碼 -->
+     <maven.compiler.source>23</maven.compiler.source>
+
+     <!-- 「目標版本」 請幫我打包成 Java 23 能執行的檔案 -->
+     <maven.compiler.target>23</maven.compiler.target>
+</properties>
+</project>
